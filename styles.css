@@ -9,9 +9,17 @@ body {
     margin: 0;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 56, 1);
     margin-top: 20px;
+    text-align: center;
 }
