@@ -10,6 +10,7 @@
 </head>
 <body id="personagens">
     <h1>Personagens ʿʿ 🌿</h1>
+    <h3><img src="./Imagens/Cute Pinterest App Icon.jpg" alt="pinterest-logo" class="logoPinterest"><a href="https://br.pinterest.com/meditervie/" target="_blank" rel="external"> Pinterest</a> </h2>
     <hr>
     
 
@@ -24,6 +25,52 @@
             </li>
 
         </ul>
+
+        <br>
+
+  <!-- Início do formulário -->
+  <form id="FormPers" action="/enviar-dados" method="post">
+    
+    <!-- Campo de texto para o nome de personagem -->
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <br><br>
+
+    <!-- Campo de texto para o nome de personagem -->
+    <label for="idade">Idade:</label>
+    <input type="text" id="idade" name="idade" required>
+    <br><br> 
+
+    
+    
+    <!-- Campo de raça -->
+    <label for="raca">Raça:</label>
+    <input type="text" id="raca" name="raca" required>
+    <br><br>
+    
+    <!-- Campo de seleção -->
+    <label for="genero">Gênero:</label>
+    <select id="genero" name="genero">
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+      <option value="outro">Outro</option>
+    </select>
+    <br><br>
+    <!-- Campo de e-mail -->
+    <label for="email">Seu E-mail:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    <!-- Campo de checkbox -->
+    <label>
+      <input type="checkbox" name="RceberEmail" value="sim">
+      Desejo receber no e-mail confirmação de inclusão.
+    </label>
+    <br><br>
+    
+    <!-- Botão de envio -->
+    <input type="submit" value="Enviar">
+    
+  </form>
     
     
 

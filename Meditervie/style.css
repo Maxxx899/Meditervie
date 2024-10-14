@@ -54,5 +54,27 @@ h1{
 
 
 body{
+    
     background-color: rgb(56, 109, 40);
+}
+
+#FormPers{
+    background-color: #648f3c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; 
+    margin: 10px; 
+    border-radius: 10px;
+
+}
+
+#FormPers input[type="text"],
+#FormPers input[type="email"],
+#FormPers input[type="password"],
+#FormPers select {
+  width: 250px;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 1000px;
+  border: 1px solid #2e0101;
 }
